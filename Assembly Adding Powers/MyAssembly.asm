@@ -10,6 +10,15 @@ doit proc
 
 	; this is a comment i can type whatever i like after a semicolon and assembler will ignore it
 	
+	; --------------- Assembly Adding Powers ------------------------
+
+
+
+
+
+
+	ret
+
 	; ---------- Subtle Assembly Bugs --------------------
 	
 	; eax will store the accumalation (sum)
@@ -17,20 +26,20 @@ doit proc
 
 	; ----- add 1 to 10000 --------
 
-	move eax, 0
-	move ecx, 1
-again:
-	add eax, ecx
-;again:				 ; error infinite loop with no change 
-	inc ecx
-	cmp ecx, 10000	; increment to 10000
-	;cmp ecx, 3
-	;inc ecx		; error cmp must be above the jle(conditional branch)
-;again:				 ; error infinite loop of "jle again"
-	jle again		; jump lessthan/equalto
-
-
-	ret			
+;	move eax, 0
+;	move ecx, 1
+;again:
+;	add eax, ecx
+;;again:				 ; error infinite loop with no change 
+;	inc ecx
+;	cmp ecx, 10000	; increment to 10000
+;	;cmp ecx, 3
+;	;inc ecx		; error cmp must be above the jle(conditional branch)
+;;again:				 ; error infinite loop of "jle again"
+;	jle again		; jump lessthan/equalto
+;
+;
+;	ret			
 
 	; ----------- Assembly Adding 1 to 100 -----------------
 
