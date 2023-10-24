@@ -13,8 +13,10 @@ doit proc
 	; --------------- Assembly Adding Powers ------------------------
 
 	; requires self implementation knowledge
-	; 3square = 3 x 3 = 9
-	; 3^5 = 3x3x3x3x3=243
+	; 3square = 3 x 3 = 9	; total sum 12, total hex C
+	; 3^5 = 3x3x3x3x3=243	; total sum 363, total hex 16B
+
+	; program challenge: 3^1 + 3^2 + 3^3 + 3^4 + ..... + 3^100
 
 
 
