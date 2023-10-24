@@ -3,7 +3,7 @@
 .model flat, c
 .stack 100h
 .data
-
+count dword ?		; -------> ---- Assembly Adding Powers ----
 .code
 
 doit proc
@@ -12,6 +12,9 @@ doit proc
 	
 	; --------------- Assembly Adding Powers ------------------------
 
+	; requires self implementation knowledge
+	; 3square = 3 x 3 = 9
+	; 3^5 = 3x3x3x3x3=243
 
 
 
